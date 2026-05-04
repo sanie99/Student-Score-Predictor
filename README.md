@@ -161,7 +161,7 @@ Feel free to fork and improve this project.
 
 - GitHub: [link](https://github.com/sanie99)
 - LinkedIn: [link](https://www.linkedin.com/in/sanjeevani-sahare-50178737a)
-
+- Deployed: [link](https://student-score-prediction-by-sanie.streamlit.app/)
 ---
 
 ## ⭐ If you found this useful
