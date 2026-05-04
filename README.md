@@ -40,33 +40,37 @@ Users can input their daily habits (study hours, attendance, english score, math
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 Student-Score-Predictor/
 │
 ├── app/
-│ └── app.py
+│ └── app.py # Streamlit UI
 │
 ├── data/
 │ ├── raw/
-│ │ └── Student_Performance.csv
+│ │ └── Student_Performance.csv # Original dataset
+│ │
 │ ├── processed/
-│ │ ├── scaled_student_performance.csv
-│ │ ├── train_data.csv
-│ │ └── test_data.csv
+│ │ ├── scaled_student_performance.csv # Scaled dataset
+│ │ ├── train_data.csv # Training data
+│ │ └── test_data.csv # Testing data
+│ │
 │ └── train-test/
-│ ├── train_data.csv
-│ └── test_data.csv
+│ ├── train_data.csv # Train split
+│ └── test_data.csv # Test split
 │
-├── models/
+├── models/ # Saved ML models (.pkl)
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_model_baseline.ipynb
-│ └── 04_model_comparison.ipynb
+│ ├── 01_data_exploration.ipynb # EDA
+│ ├── 02_feature_engineering.ipynb # Feature processing
+│ ├── 03_model_baseline.ipynb # Baseline model
+│ └── 04_model_comparison.ipynb # Model comparison
 │
-├── requirements.txt
-├── .gitignore
-└── README.md
+├── requirements.txt # Dependencies
+├── .gitignore # Ignored files
+└── README.md # Project documentation
 
 ---
 
