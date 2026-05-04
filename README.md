@@ -40,37 +40,35 @@ Users can input their daily habits (study hours, attendance, english score, math
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
+```bash
 Student-Score-Predictor/
 │
 ├── app/
-│ └── app.py # Streamlit UI
+│   └── app.py
 │
 ├── data/
-│ ├── raw/
-│ │ └── Student_Performance.csv # Original dataset
-│ │
-│ ├── processed/
-│ │ ├── scaled_student_performance.csv # Scaled dataset
-│ │ ├── train_data.csv # Training data
-│ │ └── test_data.csv # Testing data
-│ │
-│ └── train-test/
-│ ├── train_data.csv # Train split
-│ └── test_data.csv # Test split
+│   ├── raw/
+│   │   └── Student_Performance.csv
+│   ├── processed/
+│   │   ├── scaled_student_performance.csv
+│   │   ├── train_data.csv
+│   │   └── test_data.csv
+│   └── train-test/
+│       ├── train_data.csv
+│       └── test_data.csv
 │
-├── models/ # Saved ML models (.pkl)
+├── models/
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb # EDA
-│ ├── 02_feature_engineering.ipynb # Feature processing
-│ ├── 03_model_baseline.ipynb # Baseline model
-│ └── 04_model_comparison.ipynb # Model comparison
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_baseline.ipynb
+│   └── 04_model_comparison.ipynb
 │
-├── requirements.txt # Dependencies
-├── .gitignore # Ignored files
-└── README.md # Project documentation
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ---
 
