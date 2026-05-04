@@ -85,6 +85,12 @@ Student-Score-Predictor/
 
 ---
 
+## Model Download
+
+HuggingFace Repo with all models used: [link](https://huggingface.co/sanie99/student-score-prediction-rf-model/tree/main)
+
+---
+
 ## 📈 Model Performance
 
 | Model Used               | Metric | Value  |
@@ -141,7 +147,6 @@ Predicted Score: 78.5
 ## 📌 Future Improvements
 
 - Add more features (stress level, sleep hours, etc.)
-- Deploy on cloud (Streamlit Cloud / AWS)
 - Add model explainability (SHAP)
 
 ---
